@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f0e0047"
+    android:orientation="vertical">
+
+    <!-- The size of text below must be fixed, therefore dp are used instead of sp -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/uart_feature_title_long_margin"
+        android:rotation="270"
+        android:text="@string/uart_feature_title_long"
+        android:textColor="#7f0e0021"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:ellipsize="end"
+        android:freezesText="true"
+        android:maxLines="1"
+        android:text="@string/uart_default_name"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:ellipsize="end"
+        android:freezesText="true"
+        android:maxLines="1"
+        android:text="@string/uart_default_name"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/action_connect"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onConnectClicked"
+        android:text="@string/action_connect"/>
+
+
+
+</RelativeLayout>
