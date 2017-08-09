@@ -29,4 +29,5 @@
     <string name="uart_feature_title_long">UART</string>
     <string name="uart_feature_title">UART</string>
     <string name="no_required_permission">没有权限</string>
+    <string name="start_scanner">点击连接枕头</string>
 </resources>

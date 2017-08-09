@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/rssi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:src="@drawable/ic_rssi_bar"
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
         android:textSize="14sp"/>
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
         android:textSize="12sp"/>
 
 </RelativeLayout>

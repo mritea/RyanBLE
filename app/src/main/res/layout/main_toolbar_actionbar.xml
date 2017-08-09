@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:layout_height="?actionBarSize" -->
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_actionbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/toolbar_color"
+    android:theme="@style/ActionBarThemeOverlay"
+    app:elevation = "10dp"
+    app:popupTheme="@style/ActionBarPopupThemeOverlay"
+    app:titleTextAppearance="@style/ActionBar.TitleText">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_user"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/portrait_default"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#ccc"/>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ryan"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="10001"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

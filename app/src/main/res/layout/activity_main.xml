@@ -8,15 +8,15 @@
 
     <!-- 自定义一个toolbar -->
     <include
-        android:id="@+id/toolbar_actionbar"
-        layout="@layout/toolbar_w_spinner"/>
+        android:id="@+id/main_toolbar_actionbar"
+        layout="@layout/main_toolbar_actionbar"/>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <android.support.v4.widget.SlidingPaneLayout
-            android:id="@+id/sliding_pane"
+            android:id="@+id/main_sliding_pane"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
